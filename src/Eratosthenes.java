@@ -6,7 +6,7 @@ import java.util.List;
  */
 public class Eratosthenes {
 
-    public static List<Integer> cal(int m){
+    private static List<Integer> cal(int m){
         List<Integer> list = new ArrayList<>();
         Integer a[] = new Integer[m+1];
         for(int i=0;i<a.length;i++){
